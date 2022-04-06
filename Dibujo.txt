@@ -1,0 +1,28 @@
+package es.maestredam;
+
+/**
+ *
+ * @author Manuel
+ */
+public class Dibujo {
+     /**
+     *Main method
+     * @param num
+     * @param car
+     */
+    public static void pintaLinea(int num, char car) {
+        for (int i=0; i<num; i++){
+            System.out.printf("%c", car);
+        }
+    }
+    public static void main(String[] args){
+        int cont=1, suma=0;
+        while (cont<7 && suma==0){
+            cont++;
+            suma= suma+cont;
+        }
+        System.out.println(suma);
+        System.out.printf("");
+    }
+    
+}
