@@ -1,1 +1,1 @@
-Hexagono1 h=new Hexagono();
+Hexagono h=new Hexagono();
