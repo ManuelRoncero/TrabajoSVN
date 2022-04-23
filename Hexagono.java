@@ -1,1 +1,5 @@
-Hexagono h=new Hexagono();
+public Hexagono(){
+/**
+*@author Manuel
+*/
+}
